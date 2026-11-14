@@ -9,11 +9,11 @@ namespace Shop_Sosnina.Classes
     public class Shop
     {
         public string Name { get; set; }
-        public int Prace { get; set; }
-        public Shop(string name, int prace)
+        public int Price { get; set; }
+        public Shop(string name, int price)
         {
             this.Name = name;
-            this.Prace = prace;
+            this.Price = price;
         }
     }
 }
