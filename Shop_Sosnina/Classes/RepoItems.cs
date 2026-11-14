@@ -17,7 +17,7 @@ namespace Shop_Sosnina.Classes
             allItems.Add(new Children("Мягкая игрушка - кошко подушка", 1754, 6));
             allItems.Add(new Sport("Спортивный мужской костюм", 4913, "S"));
             allItems.Add(new Sport("Мяч для водного поло", 812, "61-61 см."));
-            allItems.Add(new Sport("НАбор для гольфа Partida", 3950, "600*800 мм."));
+            allItems.Add(new Sport("Набор для гольфа Partida", 3950, "600*800 мм."));
 
             return allItems;
         }

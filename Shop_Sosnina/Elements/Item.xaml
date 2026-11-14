@@ -20,6 +20,8 @@
                        VerticalAlignment="Top" Foreground="White"/>
                 <Label Name="ICharacteristic" Content="Характеристика: " Margin="10,72,10,0" 
                        Grid.Row="1" VerticalAlignment="Top" Foreground="White"/>
+                <Label Name="DopCharacteristic" Content="Характеристика: " Margin="10,103,10,0" 
+                       Grid.Row="1" VerticalAlignment="Top" Foreground="White"/>
             </Grid>
             <Border.Effect>
                 <DropShadowEffect BlurRadius="3"/>
