@@ -37,5 +37,18 @@ namespace Shop_Sosnina
                 parent.Children.Add(new Elements.Item(item));
             }
         }
+
+        private void Search_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            string text = Search.Text.ToLower();
+            parent.Children.Clear();
+
+            foreach (var item in AllItems)
+            {
+                Shop shop = item as Shop;
+                if (shop.GetCharacteristic().ToLower().Contains(text))
+                    parent.Children.Add(new Elements.Item(item));
+            }
+        }
     }
 }

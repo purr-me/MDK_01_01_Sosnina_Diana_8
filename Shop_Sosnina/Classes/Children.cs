@@ -14,5 +14,10 @@ namespace Shop_Sosnina.Classes
         {
             this.Age = age;
         }
+
+        public override string GetCharacteristic()
+        {
+            return "Возраст: " + Age;
+        }
     }
 }

@@ -44,7 +44,7 @@ namespace Shop_Sosnina.Elements
             if (item is Electronics)
             {
                 Electronics ElectronicsData = item as Electronics;
-                ICharacteristic.Content = "Fккумулятор: " + ElectronicsData.BatteryCapacity;
+                ICharacteristic.Content = "Аккумулятор: " + ElectronicsData.BatteryCapacity;
                 DopCharacteristic.Content = "Скорость езды: " + ElectronicsData.DrivingSpeed;
             }
         }

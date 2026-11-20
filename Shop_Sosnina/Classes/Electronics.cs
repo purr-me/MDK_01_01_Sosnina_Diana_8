@@ -17,5 +17,10 @@ namespace Shop_Sosnina.Classes
             this.BatteryCapacity = battery;
             this.DrivingSpeed = speed;
         }
+
+        public override string GetCharacteristic()
+        {
+            return "Аккумулятор: " + BatteryCapacity + ", скорость езды: " + DrivingSpeed;
+        }
     }
 }

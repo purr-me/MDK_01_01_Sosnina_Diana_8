@@ -15,5 +15,10 @@ namespace Shop_Sosnina.Classes
             this.Name = name;
             this.Price = price;
         }
+
+        public virtual string GetCharacteristic()
+        {
+            return "";
+        }
     }
 }

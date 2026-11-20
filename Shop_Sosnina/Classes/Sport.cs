@@ -14,5 +14,10 @@ namespace Shop_Sosnina.Classes
         {
             this.Size = size;
         }
+
+        public override string GetCharacteristic()
+        {
+            return "Размер: " + Size;
+        }
     }
 }
