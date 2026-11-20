@@ -18,7 +18,8 @@ namespace Shop_Sosnina.Classes
             allItems.Add(new Sport("Спортивный мужской костюм", 4913, "S"));
             allItems.Add(new Sport("Мяч для водного поло", 812, "61-61 см."));
             allItems.Add(new Sport("Набор для гольфа Partida", 3950, "600*800 мм."));
-
+            allItems.Add(new Electronics("Электросамокат", 27990, "10 000 мА·ч", "до 25 км/ч"));
+            allItems.Add(new Electronics("Электровелосипед ", 48500, "13 000 мА·ч", "до 32 км/ч"));
             return allItems;
         }
     }

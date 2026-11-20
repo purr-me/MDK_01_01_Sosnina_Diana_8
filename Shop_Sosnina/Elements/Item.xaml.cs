@@ -33,11 +33,19 @@ namespace Shop_Sosnina.Elements
             {
                 Children ChildrenData = item as Children;
                 ICharacteristic.Content = "Возраст: " + ChildrenData.Age;
+                DopCharacteristic.Content = "";
             }
             if(item is Sport)
             {
                 Sport SportData = item as Sport;
                 ICharacteristic.Content = "Размер: " + SportData.Size;
+                DopCharacteristic.Content = "";
+            }
+            if (item is Electronics)
+            {
+                Electronics ElectronicsData = item as Electronics;
+                ICharacteristic.Content = "Fккумулятор: " + ElectronicsData.BatteryCapacity;
+                DopCharacteristic.Content = "Скорость езды: " + ElectronicsData.DrivingSpeed;
             }
         }
     }
